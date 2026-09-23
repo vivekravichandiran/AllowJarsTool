@@ -1,0 +1,22 @@
+# Secrets / credentials — never commit
+.databrickscfg
+*.pat
+*.token
+.env
+.env.*
+*credentials*
+*secret*
+
+# Local exports produced by the utility
+exports/
+*.json.local
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
